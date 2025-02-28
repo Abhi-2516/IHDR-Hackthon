@@ -1,128 +1,79 @@
-India Health Data Repository (IHDR)
+![IHDR Banner](./assets/banner.png)  
 
-Empowering Healthcare Innovation with Structured Indian Health Data
+# 🇮🇳 India Health Data Repository (IHDR)
+### Empowering Healthcare Innovation with Structured Indian Health Data 🚀
 
+India Health Data Repository (IHDR) is a **centralized platform** designed to aggregate and structure Indian health data from various sources, including **government records, hospitals, research papers, and crowd-sourced inputs**. It aims to support **AI models, researchers, startups, and healthcare companies** by providing **secure, structured, and scalable** health datasets.
 
-India Health Data Repository (IHDR) is a centralized platform designed to aggregate and structure Indian health data from various sources, including government records, hospitals, research papers, and crowd-sourced inputs. It aims to support AI models, researchers, startups, and healthcare companies by providing secure, structured, and scalable health datasets.
+IHDR aligns with **India's Ayushman Bharat Digital Mission (ABDM)** and integrates seamlessly with existing **digital health initiatives**.
 
-IHDR aligns with India's Ayushman Bharat Digital Mission (ABDM) and integrates seamlessly with existing digital health initiatives.
+---
 
+## 🌟 Key Features
 
-🚀 Key Features
+✅ **Structured Medical Datasets** – Disease trends, prescriptions, imaging data, and genomic information.  
+✅ **Real-time Health Trends** – Track epidemic outbreaks, pollution impacts, and health indicators.  
+✅ **Research Data Hub** – Integrates findings from Indian medical research institutions.  
+✅ **APIs for AI Training** – Provides structured datasets for AI startups and institutions.  
+✅ **Blockchain-based Data Integrity** – Ensures transparency and security in data handling.  
+✅ **Federated Learning Support** – AI training without exposing raw patient data.  
 
-✅ Structured Medical Datasets – Disease trends, prescriptions, imaging data, and genomic information.
-✅ Real-time Health Trends – Track epidemic outbreaks, pollution impacts, and health indicators.
-✅ Research Data Hub – Integrates findings from Indian medical research institutions.
-✅ APIs for AI Training – Provides structured datasets for AI startups and institutions.
-✅ Blockchain-based Data Integrity – Ensures transparency and security in data handling.
-✅ Federated Learning Support – AI training without exposing raw patient data.
+---
 
+## 🔥 Challenges & Solutions
 
-🔥 Challenges & Solutions
+### 🔴 Data Extraction
 
-🔴 Data Extraction
+#### Government & Public Healthcare Data
+- **Sources**: ABDM, National Health Portal (NHP), ICMR, MoHFW, state health databases.  
+- **Methods**: APIs, web scraping, direct partnerships.  
 
-Government & Public Healthcare Data
+#### Hospitals, Labs & Clinics
+- **Sources**: AIIMS, Apollo, Fortis, Dr. Lal PathLabs, etc.  
+- **Methods**: FHIR standards for EHR integration, secure anonymized data sharing.  
 
-Sources: ABDM, National Health Portal (NHP), ICMR, MoHFW, state health databases.
+#### Unstructured Data Processing
+- **Sources**: Research papers, pharma reports, news articles.  
+- **Methods**: NLP-based scraping, OCR for document digitization.  
 
-Methods: APIs, web scraping, direct partnerships.
+#### Crowd-Sourced Data
+- **Sources**: Doctors, researchers, public contributions.  
+- **Methods**: Incentivized models for data sharing via secure user portals.  
 
-Hospitals, Labs & Clinics
+### 🔵 Data Storage & Scalability
 
-Sources: AIIMS, Apollo, Fortis, Dr. Lal PathLabs, etc.
+- **Cloud & Distributed Databases**: Google Cloud Healthcare API, AWS S3  
+- **Databases**: MongoDB Atlas (NoSQL), PostgreSQL (Relational)  
+- **Data Lake for AI Training**: Delta Lake, Apache Hadoop, Apache Spark  
+- **Blockchain Security**: Hyperledger Fabric, Ethereum Smart Contracts  
+- **Federated Learning**: TensorFlow Federated  
 
-Methods: FHIR standards for EHR integration, secure anonymized data sharing.
+---
 
-Unstructured Data Processing
+## 🛠️ Tech Stack
 
-Sources: Research papers, pharma reports, news articles.
+| Technology | Purpose |
+|------------|---------|
+| **React.js** | Frontend UI |
+| **Vite** | Fast development tooling |
+| **TypeScript** | Strongly-typed JavaScript |
+| **Tailwind CSS** | UI Styling |
+| **shadcn-ui** | Prebuilt UI components |
+| **MongoDB Atlas** | NoSQL database |
+| **PostgreSQL** | Relational database |
+| **Google Cloud & AWS** | Cloud storage & APIs |
+| **Hyperledger Fabric** | Blockchain for data integrity |
+| **TensorFlow Federated** | Privacy-preserving AI training |
 
-Methods: NLP-based scraping, OCR for document digitization.
+---
 
-Crowd-Sourced Data
+## 🏗️ Installation & Setup
 
-Sources: Doctors, researchers, public contributions.
+### 📌 Prerequisites
+Ensure you have **Node.js & npm** installed. [Download Here](https://nodejs.org/)
 
-Methods: Incentivized models for data sharing via secure user portals.
-
-
-🔵 Data Storage & Scalability
-
-Cloud & Distributed Databases
-
-Google Cloud Healthcare API, AWS S3 – For structured/unstructured data.
-
-MongoDB Atlas & PostgreSQL – NoSQL & relational storage.
-
-Data Lake for AI Training
-
-Delta Lake, Apache Hadoop, Apache Spark – Large-scale raw data storage & preprocessing.
-
-Blockchain Security
-
-Hyperledger Fabric, Ethereum Smart Contracts – Ensuring tamper-proof records.
-
-Federated Learning
-
-TensorFlow Federated – AI training without exposing patient records.
-
-
-🛠️ Tech Stack
-
-Technology
-
-Purpose
-
-React.js
-
-Frontend UI
-
-Vite
-
-Fast development tooling
-
-TypeScript
-
-Strongly-typed JavaScript
-
-Tailwind CSS
-
-UI Styling
-
-shadcn-ui
-
-Prebuilt UI components
-
-MongoDB Atlas
-
-NoSQL database
-
-PostgreSQL
-
-Relational database
-
-Google Cloud & AWS
-
-Cloud storage & APIs
-
-Hyperledger Fabric
-
-Blockchain for data integrity
-
-TensorFlow Federated
-
-Privacy-preserving AI training
-
-
-🏗️ Installation & Setup
-
-📌 Prerequisites
-
-Node.js & npm installed (Download Here)
-
-🚀 Getting Started
-
+### 🚀 Getting Started
+```sh
 # Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
@@ -134,47 +85,47 @@ npm install
 
 # Step 4: Start the development server
 npm run dev
+```
 
+---
 
-🌐 Website Features
+## 🌐 Website Features
 
-📊 Data Marketplace – Request datasets for research & AI development.
+📊 **Data Marketplace** – Request datasets for research & AI development.  
+🔗 **API Access** – Secure pay-per-use model for structured data access.  
+📈 **Interactive Dashboards** – Real-time health trends & insights.  
+🔍 **AI-powered Search** – Query-based data retrieval.  
+🛡 **Compliance & Privacy** – Fully adheres to **GDPR & India’s DPDP Act**.  
 
-🔗 API Access – Secure pay-per-use model for structured data access.
+---
 
-📈 Interactive Dashboards – Real-time health trends & insights.
+## 💰 Monetization Model
 
-🔍 AI-powered Search – Query-based data retrieval.
+- **Freemium Access** – Basic health insights are free, while premium datasets require paid access.
+- **API Monetization** – Structured health data available via paid APIs.
+- **B2B Partnerships** – Collaborations with startups, pharma firms, and research institutions.
+- **Government Collaborations** – Aligning with national health initiatives.
 
-🛡 Compliance & Privacy – Fully adheres to GDPR & India’s DPDP Act.
+---
 
+## 📅 Roadmap & Future Plans
 
-💰 Monetization Model
+✅ **Phase 1**: Build core platform (Data Aggregation, API Access, AI Training Datasets).  
+🔜 **Phase 2**: Expand hospital & research partnerships, launch AI-powered analytics tools.  
+🔜 **Phase 3**: Implement federated learning & blockchain-based patient consent models.  
 
-Freemium Access – Basic health insights are free, while premium datasets require paid access.
+---
 
-API Monetization – Structured health data available via paid APIs.
+## 📬 Contact
 
-B2B Partnerships – Collaborations with startups, pharma firms, and research institutions.
+💼 **For Collaborations & Partnerships:**  
+📧 [2516abhi43@gmail.com](mailto:2516abhi43@gmail.com) | [utkarx10106@gmail.com](mailto:utkarx10106@gmail.com)
 
-Government Collaborations – Aligning with national health initiatives.
+---
 
+## 🏆 Why Choose IHDR?
 
-📅 Roadmap & Future Plans
+IHDR is a **first-of-its-kind initiative** designed to revolutionize Indian healthcare data by making it **structured, secure, and accessible**. With a **cutting-edge tech stack, real-time insights, and AI-friendly datasets**, it is poised to **transform research, diagnostics, and healthcare innovation in India**.
 
-✅ Phase 1: Build core platform (Data Aggregation, API Access, AI Training Datasets)
+🚀 **Join us in building the future of Indian healthcare!**
 
-🔜 Phase 2: Expand hospital & research partnerships, launch AI-powered analytics tools.
-
-🔜 Phase 3: Implement federated learning & blockchain-based patient consent models.
-
-
-📬 Contact
-
-💼 For Collaborations & Partnerships: [2516abhi43@gmail.com | utkarx10106@gmail.com]
-
-🏆 Why Choose IHDR?
-
-IHDR is a first-of-its-kind initiative designed to revolutionize Indian healthcare data by making it structured, secure, and accessible. With a cutting-edge tech stack, real-time insights, and AI-friendly datasets, it is poised to transform research, diagnostics, and healthcare innovation in India.
-
-🚀 Join us in building the future of Indian healthcare!
