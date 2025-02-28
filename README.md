@@ -1,80 +1,29 @@
-![IHDR Banner](assets/Banner.png)
+# Welcome to your Lovable project
 
-# 🇮🇳 India Health Data Repository (IHDR)
-### Empowering Healthcare Innovation with Structured Indian Health Data 🚀
+## Project info
 
-India Health Data Repository (IHDR) is a **centralized platform** designed to aggregate and structure Indian health data from various sources, including **government records, hospitals, research papers, and crowd-sourced inputs**. It aims to support **AI models, researchers, startups, and healthcare companies** by providing **secure, structured, and scalable** health datasets.
+**URL**: https://lovable.dev/projects/673d2c21-d4da-4183-85ed-f527154f926a
 
-IHDR aligns with **India's Ayushman Bharat Digital Mission (ABDM)** and integrates seamlessly with existing **digital health initiatives**.
+## How can I edit this code?
 
----
+There are several ways of editing your application.
 
-## 🌟 Key Features
+**Use Lovable**
 
-✅ **Structured Medical Datasets** – Disease trends, prescriptions, imaging data, and genomic information.  
-✅ **Real-time Health Trends** – Track epidemic outbreaks, pollution impacts, and health indicators.  
-✅ **Research Data Hub** – Integrates findings from Indian medical research institutions.  
-✅ **APIs for AI Training** – Provides structured datasets for AI startups and institutions.  
-✅ **Blockchain-based Data Integrity** – Ensures transparency and security in data handling.  
-✅ **Federated Learning Support** – AI training without exposing raw patient data.  
+Simply visit the [Lovable Project](https://lovable.dev/projects/673d2c21-d4da-4183-85ed-f527154f926a) and start prompting.
 
----
+Changes made via Lovable will be committed automatically to this repo.
 
-## 🔥 Challenges & Solutions
+**Use your preferred IDE**
 
-### 🔴 Data Extraction
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-#### Government & Public Healthcare Data
-- **Sources**: ABDM, National Health Portal (NHP), ICMR, MoHFW, state health databases.  
-- **Methods**: APIs, web scraping, direct partnerships.  
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-#### Hospitals, Labs & Clinics
-- **Sources**: AIIMS, Apollo, Fortis, Dr. Lal PathLabs, etc.  
-- **Methods**: FHIR standards for EHR integration, secure anonymized data sharing.  
+Follow these steps:
 
-#### Unstructured Data Processing
-- **Sources**: Research papers, pharma reports, news articles.  
-- **Methods**: NLP-based scraping, OCR for document digitization.  
-
-#### Crowd-Sourced Data
-- **Sources**: Doctors, researchers, public contributions.  
-- **Methods**: Incentivized models for data sharing via secure user portals.  
-
-### 🔵 Data Storage & Scalability
-
-- **Cloud & Distributed Databases**: Google Cloud Healthcare API, AWS S3  
-- **Databases**: MongoDB Atlas (NoSQL), PostgreSQL (Relational)  
-- **Data Lake for AI Training**: Delta Lake, Apache Hadoop, Apache Spark  
-- **Blockchain Security**: Hyperledger Fabric, Ethereum Smart Contracts  
-- **Federated Learning**: TensorFlow Federated  
-
----
-
-## 🛠️ Tech Stack
-
-| Technology | Purpose |
-|------------|---------|
-| **React.js** | Frontend UI |
-| **Vite** | Fast development tooling |
-| **TypeScript** | Strongly-typed JavaScript |
-| **Tailwind CSS** | UI Styling |
-| **shadcn-ui** | Prebuilt UI components |
-| **MongoDB Atlas** | NoSQL database |
-| **PostgreSQL** | Relational database |
-| **Google Cloud & AWS** | Cloud storage & APIs |
-| **Hyperledger Fabric** | Blockchain for data integrity |
-| **TensorFlow Federated** | Privacy-preserving AI training |
-
----
-
-## 🏗️ Installation & Setup
-
-### 📌 Prerequisites
-Ensure you have **Node.js & npm** installed. [Download Here](https://nodejs.org/)
-
-### 🚀 Getting Started
 ```sh
-# Step 1: Clone the repository
+# Step 1: Clone the repository using the project's Git URL.
 git clone <YOUR_GIT_URL>
 
 # Step 2: Navigate to the project directory
@@ -85,47 +34,59 @@ npm install
 
 # Step 4: Start the development server
 npm run dev
-```
 
----
 
-## 🌐 Website Features
+🌐 Website Features
 
-📊 **Data Marketplace** – Request datasets for research & AI development.  
-🔗 **API Access** – Secure pay-per-use model for structured data access.  
-📈 **Interactive Dashboards** – Real-time health trends & insights.  
-🔍 **AI-powered Search** – Query-based data retrieval.  
-🛡 **Compliance & Privacy** – Fully adheres to **GDPR & India’s DPDP Act**.  
+📊 Data Marketplace – Request datasets for research & AI development.
 
----
+🔗 API Access – Secure pay-per-use model for structured data access.
 
-## 💰 Monetization Model
+📈 Interactive Dashboards – Real-time health trends & insights.
 
-- **Freemium Access** – Basic health insights are free, while premium datasets require paid access.
-- **API Monetization** – Structured health data available via paid APIs.
-- **B2B Partnerships** – Collaborations with startups, pharma firms, and research institutions.
-- **Government Collaborations** – Aligning with national health initiatives.
+🔍 AI-powered Search – Query-based data retrieval.
 
----
+🛡 Compliance & Privacy – Fully adheres to GDPR & India’s DPDP Act.
 
-## 📅 Roadmap & Future Plans
 
-✅ **Phase 1**: Build core platform (Data Aggregation, API Access, AI Training Datasets).  
-🔜 **Phase 2**: Expand hospital & research partnerships, launch AI-powered analytics tools.  
-🔜 **Phase 3**: Implement federated learning & blockchain-based patient consent models.  
+💰 Monetization Model
 
----
+Freemium Access – Basic health insights are free, while premium datasets require paid access.
 
-## 📬 Contact
+API Monetization – Structured health data available via paid APIs.
 
-💼 **For Collaborations & Partnerships:**  
-📧 [2516abhi43@gmail.com](mailto:2516abhi43@gmail.com) | [utkarsh.cloudops@gmail.com](mailto:utkarsh.cloudops@gmail.com)
+B2B Partnerships – Collaborations with startups, pharma firms, and research institutions.
 
----
+**Edit a file directly in GitHub**
 
-## 🏆 Why Choose IHDR?
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-IHDR is a **first-of-its-kind initiative** designed to revolutionize Indian healthcare data by making it **structured, secure, and accessible**. With a **cutting-edge tech stack, real-time insights, and AI-friendly datasets**, it is poised to **transform research, diagnostics, and healthcare innovation in India**.
+**Use GitHub Codespaces**
 
-🚀 **Join us in building the future of Indian healthcare!**
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
+## What technologies are used for this project?
+
+This project is built with .
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/673d2c21-d4da-4183-85ed-f527154f926a) and click on Share -> Publish.
+
+## I want to use a custom domain - is that possible?
+
+We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+
+🚀 Join us in building the future of Indian healthcare!
