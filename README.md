@@ -1,4 +1,4 @@
-![IHDR Banner](./assets/banner.png)  
+![IHDR Banner](assets/Banner.png)
 
 # 🇮🇳 India Health Data Repository (IHDR)
 ### Empowering Healthcare Innovation with Structured Indian Health Data 🚀
