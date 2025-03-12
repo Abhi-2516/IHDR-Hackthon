@@ -119,7 +119,7 @@ npm run dev
 ## 📬 Contact
 
 💼 **For Collaborations & Partnerships:**  
-📧 [2516abhi43@gmail.com](mailto:2516abhi43@gmail.com) | [utkarx10106@gmail.com](mailto:utkarx10106@gmail.com)
+📧 [2516abhi43@gmail.com](mailto:2516abhi43@gmail.com) | [utkarsh.cloudops@gmail.com](mailto:utkarsh.cloudops@gmail.com)
 
 ---
 
