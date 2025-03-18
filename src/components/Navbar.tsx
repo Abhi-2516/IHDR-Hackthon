@@ -1,8 +1,9 @@
 import { useState } from "react";
-import { Menu, X,Database } from "lucide-react";
+import { Menu, X, Database } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
 import { useAuthStore } from "@/store/auth"; // Import Auth Store
+import { UserButton, SignedIn, SignedOut } from "@clerk/clerk-react"; // Clerk User Authentication
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -14,9 +15,9 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between py-4">
         {/* Logo */}
         <div className="flex items-center gap-2">
-                <Database className="h-6 w-6 text-health-500" />
-                <span className="font-semibold text-xl text-health-900">IHDR</span>
-              </div>
+          <Database className="h-6 w-6 text-health-500" />
+          <span className="font-semibold text-xl text-health-900">IHDR</span>
+        </div>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6">
@@ -24,53 +25,29 @@ const Navbar = () => {
             Home
           </Button>
           <Button variant="ghost" onClick={() => navigate("/upload")}>
-            Upload
+            About
           </Button>
-          {isAuthenticated ? (
-            <Button variant="ghost" onClick={() => navigate("/dashboard")}>
-              Dashboard
+          <Button variant="ghost" onClick={() => navigate("/Dashboard")}>
+            Dashboard
+          </Button>
+
+          {/* Show UserButton if logged in, otherwise show Sign In */}
+          <SignedIn>
+            <UserButton />
+          </SignedIn>
+          <SignedOut>
+            <Button variant="outline" onClick={() => navigate("/signin")}>
+              Sign In
             </Button>
-          ) : null}
-          <Button
-            variant="outline"
-            onClick={() => navigate(isAuthenticated ? "/dashboard" : "/signin")}
-          >
-            {isAuthenticated ? "Dashboard" : "Sign In"}
-          </Button>
+          </SignedOut>
         </div>
 
-        {/* Mobile Menu Button */}
-        <button className="md:hidden" onClick={() => setMenuOpen(!menuOpen)}>
-          {menuOpen ? (
-            <X className="h-6 w-6 text-health-800" />
-          ) : (
-            <Menu className="h-6 w-6 text-health-800" />
-          )}
-        </button>
+     
       </div>
 
       {/* Mobile Menu */}
-      {menuOpen && (
-        <div className="md:hidden bg-white shadow-md p-4 space-y-4">
-          <Button variant="ghost" onClick={() => navigate("/")}>
-            Home
-          </Button>
-          <Button variant="ghost" onClick={() => navigate("/upload")}>
-            Upload
-          </Button>
-          {isAuthenticated ? (
-            <Button variant="ghost" onClick={() => navigate("/dashboard")}>
-              Dashboard
-            </Button>
-          ) : null}
-          <Button
-            variant="outline"
-            onClick={() => navigate(isAuthenticated ? "/dashboard" : "/signin")}
-          >
-            {isAuthenticated ? "Dashboard" : "Sign In"}
-          </Button>
-        </div>
-      )}
+     
+    
     </nav>
   );
 };
