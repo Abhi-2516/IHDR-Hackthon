@@ -67,12 +67,12 @@ IHDR aligns with **India's Ayushman Bharat Digital Mission (ABDM)** and integrat
 
 ---
 
-## 🏗️ Installation & Setup
+## 🏠 Installation & Setup
 
 ### 📌 Prerequisites
 Ensure you have **Node.js & npm** installed. [Download Here](https://nodejs.org/)
 
-### 🚀 Getting Started
+### 🚀 Frontend Setup
 ```sh
 # Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
@@ -86,6 +86,27 @@ npm install
 # Step 4: Start the development server
 npm run dev
 ```
+
+### 🚀 Backend Setup
+```sh
+# Step 1: Navigate to the backend directory
+cd IHDR_PYTHON
+
+# Step 2: Create a virtual environment (optional but recommended)
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Step 3: Install dependencies
+pip install -r requirements.txt
+
+# Step 4: Run the backend server
+python app.py
+```
+
+### 🔍 Uploading Data & Getting Insights
+- Upload your **.CSV file** through the UI.
+- Click on **Upload**.
+- Get **data insights** and **visualizations** automatically.
 
 ---
 
@@ -101,8 +122,9 @@ npm run dev
 
 ## 💰 Monetization Model
 
-- **Freemium Access** – Basic health insights are free, while premium datasets require paid access.
-- **API Monetization** – Structured health data available via paid APIs.
+- **Freemium Access** – Public users can access general health insights for free.
+- **Premium Data & Insights** – Research organizations, governments, and AI startups can **purchase** advanced insights.
+- **API Monetization** – Secure pay-per-use access to structured health data.
 - **B2B Partnerships** – Collaborations with startups, pharma firms, and research institutions.
 - **Government Collaborations** – Aligning with national health initiatives.
 
@@ -110,15 +132,15 @@ npm run dev
 
 ## 📅 Roadmap & Future Plans
 
-✅ **Phase 1**: Build core platform (Data Aggregation, API Access, AI Training Datasets).  
-🔜 **Phase 2**: Expand hospital & research partnerships, launch AI-powered analytics tools.  
-🔜 **Phase 3**: Implement federated learning & blockchain-based patient consent models.  
+👉 **Phase 1**: Build core platform (Data Aggregation, API Access, AI Training Datasets).  
+👉 **Phase 2**: Expand hospital & research partnerships, launch AI-powered analytics tools.  
+👉 **Phase 3**: Implement federated learning & blockchain-based patient consent models.  
 
 ---
 
-## 📬 Contact
+## 💌 Contact
 
-💼 **For Collaborations & Partnerships:**  
+🏋 **For Collaborations & Partnerships:**  
 📧 [2516abhi43@gmail.com](mailto:2516abhi43@gmail.com) | [utkarsh.cloudops@gmail.com](mailto:utkarsh.cloudops@gmail.com)
 
 ---
@@ -128,4 +150,3 @@ npm run dev
 IHDR is a **first-of-its-kind initiative** designed to revolutionize Indian healthcare data by making it **structured, secure, and accessible**. With a **cutting-edge tech stack, real-time insights, and AI-friendly datasets**, it is poised to **transform research, diagnostics, and healthcare innovation in India**.
 
 🚀 **Join us in building the future of Indian healthcare!**
-
