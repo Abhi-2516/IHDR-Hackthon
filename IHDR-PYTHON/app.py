@@ -8,7 +8,7 @@ from flask import Flask, render_template, request
 app = Flask(__name__, static_folder='static')
 
 # Set up Gemini API Key (Replace with actual key)
-genai.configure(api_key="AIzaSyBFijCMOGtfOuNdkt3LmU2hvQSCkyOv60g")
+genai.configure(api_key="You Api kEY")
 
 # Ensure necessary directories exist
 UPLOAD_FOLDER = "uploads"
