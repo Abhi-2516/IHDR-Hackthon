@@ -1,0 +1,51 @@
+Name,Age,Weight (kg),Gender,Diseases Detected,State
+Ramesh,36,93,Female,Migraine,Maharashtra
+Meena,48,75,Female,Asthma,Maharashtra
+Priya,33,68,Male,Diabetes,Maharashtra
+Sunita,53,59,Female,Arthritis,Maharashtra
+Suresh,62,58,Male,Obesity,Maharashtra
+Geeta,23,65,Female,Asthma,Maharashtra
+Kavita,46,79,Male,Obesity,Maharashtra
+Manoj,38,64,Male,Heart Disease,Maharashtra
+Kavita,62,52,Female,Diabetes,Maharashtra
+Arun,23,57,Female,Heart Disease,Maharashtra
+Rahul,18,49,Male,Arthritis,Maharashtra
+Amit,64,92,Male,Hypertension,Maharashtra
+Sunita,48,98,Female,None,Maharashtra
+Kavita,31,76,Female,Obesity,Maharashtra
+Amit,73,59,Male,Heart Disease,Maharashtra
+Meena,37,96,Male,Asthma,Maharashtra
+Kiran,23,83,Male,None,Maharashtra
+Suresh,57,57,Female,Heart Disease,Maharashtra
+Rajesh,73,55,Male,Hypertension,Maharashtra
+Rahul,66,50,Male,Hypertension,Maharashtra
+Kiran,25,47,Female,Asthma,Maharashtra
+Meena,45,71,Female,Hypertension,Maharashtra
+Pooja,51,72,Female,None,Maharashtra
+Sunita,78,73,Female,Hypertension,Maharashtra
+Ramesh,78,67,Female,Migraine,Maharashtra
+Sunita,48,59,Female,Diabetes,Maharashtra
+Pooja,32,51,Female,Hypertension,Maharashtra
+Suresh,69,99,Female,Heart Disease,Maharashtra
+Rajesh,73,99,Male,Heart Disease,Maharashtra
+Amit,28,76,Female,None,Maharashtra
+Meena,45,99,Female,Arthritis,Maharashtra
+Suresh,42,100,Male,Migraine,Maharashtra
+Rahul,73,81,Female,None,Maharashtra
+Neha,77,98,Male,Obesity,Maharashtra
+Kavita,75,70,Male,Hypertension,Maharashtra
+Rajesh,73,48,Male,Heart Disease,Maharashtra
+Meena,61,70,Female,Hypertension,Maharashtra
+Suresh,72,80,Female,Arthritis,Maharashtra
+Geeta,70,86,Female,Heart Disease,Maharashtra
+Geeta,55,66,Female,Thyroid Disorder,Maharashtra
+Rajesh,44,60,Male,None,Maharashtra
+Sanjay,52,87,Female,Hypertension,Maharashtra
+Sanjay,75,61,Female,Diabetes,Maharashtra
+Rahul,26,96,Male,Arthritis,Maharashtra
+Manoj,25,72,Male,None,Maharashtra
+Anjali,38,94,Female,Hypertension,Maharashtra
+Arun,32,47,Male,Migraine,Maharashtra
+Pooja,74,98,Female,Hypertension,Maharashtra
+Meena,61,82,Male,Obesity,Maharashtra
+Rajesh,44,73,Female,Migraine,Maharashtra
